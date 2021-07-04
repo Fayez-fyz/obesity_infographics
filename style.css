@@ -22,12 +22,6 @@ body{
     clear: both;
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
   /* Create two equal columns that floats next to each other */
 .column2 {
     float: left;
@@ -43,12 +37,7 @@ body{
     clear: both;
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column2 {
-      width: 100%;
-    }
-  }
+
   .dot {
     border-style: none dashed none none;
     border-color:#99AABA ;
